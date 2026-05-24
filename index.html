@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Madhusudan Gunda — CV / Document AI Researcher</title>
+  <meta name="description" content="Sai Madhusudan Gunda — M.S. by Research at IIIT Hyderabad. Computer Vision, Document AI, Vision-Language Models. CVPR / WACV / ICDAR 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <header class="nav">
+    <a class="logo" href="#top">
+      <span class="logo-mark">SG</span>
+      <span class="logo-text">Sai&nbsp;Gunda</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="resume-btn" href="Sai_Resume.pdf" target="_blank" rel="noopener">
+      <span>Résumé</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+    </a>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="badge reveal"><span class="dot"></span> Open to research collaborations</div>
+        <h1 class="reveal">
+          Sai&nbsp;Madhusudan
+          <span class="grad">Gunda</span>
+        </h1>
+        <p class="lede reveal">
+          I build <em>vision-language models</em> that read, ground, and reason over documents —
+          including <em>warped historical manuscripts</em> and <em>13 Indic scripts</em>.
+        </p>
+        <p class="sub reveal">
+          M.S. by Research @ IIIT&nbsp;Hyderabad · Generative AI Intern @ BharatGen
+          · Published at <strong>CVPR&nbsp;'26</strong>, <strong>WACV&nbsp;'26</strong>, <strong>ICDAR&nbsp;'26</strong>.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn primary" href="#publications">See my research <span aria-hidden="true">→</span></a>
+          <a class="btn ghost" href="mailto:gundasaimadhusudan@gmail.com">Get in touch</a>
+        </div>
+
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <div class="num"><span data-count="3">0</span></div>
+            <div class="label">Publications</div>
+          </div>
+          <div class="stat">
+            <div class="num"><span data-count="64">0</span><span class="suf">×</span></div>
+            <div class="label">H100 GPUs</div>
+          </div>
+          <div class="stat">
+            <div class="num"><span data-count="2">0</span><span class="suf">M+</span></div>
+            <div class="label">Docs processed</div>
+          </div>
+          <div class="stat">
+            <div class="num"><span data-count="9">0</span><span class="suf">.0</span></div>
+            <div class="label">CGPA</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="card-head">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="card-title">~/research/focus.json</span>
+        </div>
+<pre class="card-body"><span class="k">{</span>
+  <span class="key">"focus"</span>: <span class="str">"Document AI · VLMs"</span>,
+  <span class="key">"current"</span>: <span class="str">"Patram-7B-Instruct"</span>,
+  <span class="key">"advisor"</span>: <span class="str">"Prof. Ravi Kiran S."</span>,
+  <span class="key">"venues"</span>: [<span class="str">"CVPR'26"</span>, <span class="str">"WACV'26"</span>, <span class="str">"ICDAR'26"</span>],
+  <span class="key">"stack"</span>: [<span class="str">"PyTorch"</span>, <span class="str">"DeepSpeed"</span>, <span class="str">"vLLM"</span>],
+  <span class="key">"languages"</span>: <span class="num">13</span>,
+  <span class="key">"vibe"</span>: <span class="str">"build &amp; publish"</span>
+<span class="k">}</span></pre>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head reveal">
+        <div class="kicker">01 — About</div>
+        <h2>A researcher who ships.</h2>
+      </div>
+      <div class="about-grid">
+        <p class="reveal">
+          I'm a Computer Science researcher at <strong>IIIT Hyderabad</strong>, working at the intersection of
+          <em>computer vision</em>, <em>NLP</em>, and <em>multimodal learning</em>. My research focuses on
+          <strong>document intelligence</strong> — teaching models to read, parse, and reason over
+          complex documents from modern PDFs to centuries-old palm-leaf manuscripts.
+        </p>
+        <p class="reveal">
+          Right now I'm a <strong>Generative AI Research Intern at BharatGen</strong> (India's National AI
+          Mission), where I lead work on <em>Patram-7B-Instruct</em> — a multilingual vision-language
+          model for Indian languages. I've trained it on <strong>64 H100 GPUs</strong> using DeepSpeed
+          ZeRO-3, and built the data pipelines that fuel it.
+        </p>
+        <p class="reveal">
+          I've published at top venues including <strong>CVPR 2026</strong>, <strong>WACV 2026</strong>, and
+          <strong>ICDAR 2026</strong>, with two more under review at ECCV. I care about research that's
+          both rigorous and useful — models that work on real, messy, low-resource data.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-head reveal">
+        <div class="kicker">02 — Experience</div>
+        <h2>Where I've been building.</h2>
+      </div>
+
+      <ol class="timeline">
+
+        <li class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-meta">
+            <span class="t-date">Jan 2025 — Present</span>
+            <span class="t-place">IIIT Hyderabad</span>
+          </div>
+          <div class="t-body">
+            <h3>Generative AI Research Intern</h3>
+            <div class="t-org">BharatGen · National AI Mission</div>
+            <ul>
+              <li>Developing <strong>Patram-7B-Instruct</strong>, a multilingual vision-language model for document understanding, OCR, layout parsing, QA, classification, and summarization across Indian languages.</li>
+              <li>Built scalable data pipelines for synthetic QA generation, key-value extraction, and summarization — producing large-scale multimodal training samples.</li>
+              <li>Implemented multi-node distributed training using <strong>DeepSpeed ZeRO-3 on 64 H100 GPUs</strong>.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-meta">
+            <span class="t-date">May 2023 — Present</span>
+            <span class="t-place">Advisor: Prof. Ravi Kiran S.</span>
+          </div>
+          <div class="t-body">
+            <h3>Research Student — Computer Vision</h3>
+            <div class="t-org">Center for Visual Information Technology (CVIT), IIIT Hyderabad</div>
+            <ul>
+              <li>Built ML systems for grounded document QA, historical manuscript OCR, and multimodal document understanding — with a focus on scalable training, evaluation, and inference.</li>
+              <li>Published <strong>2 papers at top CV venues</strong> (CVPR, WACV), spanning document grounding, OCR, and multilingual tasks.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="t-item reveal">
+          <div class="t-dot"></div>
+          <div class="t-meta">
+            <span class="t-date">Jan 2024 — Apr 2024</span>
+            <span class="t-place">Advisor: Prof. Radhika Mamidi</span>
+          </div>
+          <div class="t-body">
+            <h3>Undergraduate Researcher — NLP</h3>
+            <div class="t-org">Language Technologies Research Centre (LTRC), IIIT Hyderabad</div>
+            <ul>
+              <li>Built classification models for Indian languages, reaching <strong>92% accuracy</strong> on multilingual datasets via fine-tuning.</li>
+              <li>Explored cross-lingual transfer and low-resource classification for Indic NLP.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <div class="section-head reveal">
+        <div class="kicker">03 — Publications</div>
+        <h2>Selected research.</h2>
+        <p class="section-sub">Document understanding · OCR · Vision-Language Models · Multilingual AI</p>
+      </div>
+
+      <div class="pubs">
+
+        <article class="pub reveal accent-blue">
+          <header>
+            <span class="venue">CVPR 2026</span>
+            <span class="tags">grounding · document QA</span>
+          </header>
+          <h3>M3Grounder: Mask-Based Multi-Span and Multi-Granular Grounding for Document QA</h3>
+          <p>A mask-based grounding framework that localizes multi-span evidence at <em>phrase, line, and block</em> levels for document question answering.</p>
+          <a class="pub-link" href="https://m3grounder.github.io/" target="_blank" rel="noopener">
+            <span>Project page</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="pub reveal accent-purple">
+          <header>
+            <span class="venue">WACV 2026</span>
+            <span class="tags">OCR · historical manuscripts</span>
+          </header>
+          <h3>CURIO: Curvature-Aligned and Efficient OCR for Low-Resource Historical Manuscripts</h3>
+          <p>A curvature-aware OCR model that handles warped and degraded Indic manuscripts, improving recognition accuracy for low-resource scripts.</p>
+          <a class="pub-link" href="https://ihdia.iiit.ac.in/curio/" target="_blank" rel="noopener">
+            <span>Project page</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+        <article class="pub reveal accent-pink">
+          <header>
+            <span class="venue">ICDAR 2026</span>
+            <span class="tags">OCR · multilingual</span>
+          </header>
+          <h3>UniLipi: A Unified Multi-Script OCR for Historical Indic Manuscripts</h3>
+          <p>Unified OCR across <strong>13 Indic scripts</strong> with script-aware synthetic data, achieving <strong>6.9% CER</strong> and strong cross-script generalization.</p>
+          <a class="pub-link" href="https://ihdia.iiit.ac.in/unilipi/" target="_blank" rel="noopener">
+            <span>Project page</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <div class="kicker">04 — Projects</div>
+        <h2>Selected engineering work.</h2>
+      </div>
+
+      <div class="projects">
+
+        <article class="proj reveal">
+          <div class="proj-glyph">⚡</div>
+          <h3>Scalable VL Document Inference with vLLM</h3>
+          <p>High-throughput inference pipelines for VL document models, processing <strong>2M+ documents</strong>. <strong>2.5×</strong> lower latency via prompt batching, cached image embeddings, and dynamic scheduling.</p>
+          <div class="stack">
+            <span>Python</span><span>PyTorch</span><span>vLLM</span>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <div class="proj-glyph">🔎</div>
+          <h3>Multi-Page Document Grounding with Agentic RAG</h3>
+          <p>Extended M3Grounder into a multi-page RAG pipeline — grounded QA over long documents with evidence spanning multiple pages and a grounding-aware answerer.</p>
+          <div class="stack">
+            <span>Python</span><span>PyTorch</span><span>RAG</span><span>VLMs</span>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <div class="proj-glyph">📄</div>
+          <h3>Document QA &amp; Key-Value Extraction Pipeline</h3>
+          <p>End-to-end pipeline for document QA and KV extraction with OCR, layout-aware features, multimodal transformers, plus synthetic data and grounding workflows.</p>
+          <div class="stack">
+            <span>Python</span><span>OCR</span><span>Transformers</span>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <div class="proj-glyph">🧠</div>
+          <h3>Mixture-of-Experts Routing for Document Models</h3>
+          <p>Routing strategies that send document inputs to specialized experts — <strong>15% compute savings</strong> with <strong>&lt;1% accuracy drop</strong>.</p>
+          <div class="stack">
+            <span>PyTorch</span><span>Distributed Inference</span>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <div class="proj-glyph">🎬</div>
+          <h3>Recommendation Engine with Collaborative Filtering</h3>
+          <p>Hybrid recommender combining collaborative filtering and content-based methods on MovieLens 25M, served via a REST API.</p>
+          <div class="stack">
+            <span>Python</span><span>Scikit-learn</span><span>SQL</span><span>Flask</span>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <div class="proj-glyph">🎯</div>
+          <h3>Real-Time Object Detection &amp; Tracking</h3>
+          <p>End-to-end detection and tracking using YOLOv8 for multi-object tracking on surveillance video, with ONNX export for optimized deployment.</p>
+          <div class="stack">
+            <span>PyTorch</span><span>OpenCV</span><span>ONNX</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <div class="kicker">05 — Skills</div>
+        <h2>The toolbox.</h2>
+      </div>
+
+      <div class="skills">
+        <div class="skill-col reveal">
+          <h4>Programming</h4>
+          <div class="chips">
+            <span>Python</span><span>C / C++</span><span>JavaScript</span><span>SQL</span><span>HTML / CSS</span>
+          </div>
+        </div>
+        <div class="skill-col reveal">
+          <h4>Deep Learning</h4>
+          <div class="chips">
+            <span>PyTorch</span><span>HuggingFace</span><span>DeepSpeed</span><span>vLLM</span><span>Ms&nbsp;Swift</span><span>Unsloth</span>
+          </div>
+        </div>
+        <div class="skill-col reveal">
+          <h4>Infra &amp; Tools</h4>
+          <div class="chips">
+            <span>Docker</span><span>Git</span><span>Linux</span><span>AWS&nbsp;(S3, EC2)</span><span>MongoDB</span><span>MERN</span>
+          </div>
+        </div>
+        <div class="skill-col reveal">
+          <h4>Core Areas</h4>
+          <div class="chips">
+            <span>Computer Vision</span><span>Document AI</span><span>NLP</span><span>Distributed Training</span><span>Model Optimization</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <div class="section-head reveal">
+        <div class="kicker">06 — Achievements</div>
+        <h2>Highlights.</h2>
+      </div>
+      <div class="achievements">
+        <div class="ach reveal">
+          <div class="ach-num">★</div>
+          <div>
+            <h4>Dean's List · IIIT Hyderabad</h4>
+            <p>Two consecutive years — 2021 &amp; 2022.</p>
+          </div>
+        </div>
+        <div class="ach reveal">
+          <div class="ach-num">1<sup>st</sup></div>
+          <div>
+            <h4>Megathon Winner</h4>
+            <p>1st place in the hackathon hosted by IIIT Hyderabad &amp; Qualcomm.</p>
+          </div>
+        </div>
+        <div class="ach reveal">
+          <div class="ach-num">7<sup>th</sup></div>
+          <div>
+            <h4>Amazon ML Challenge 2024</h4>
+            <p>Top 10 finish at the national-level ML competition.</p>
+          </div>
+        </div>
+        <div class="ach reveal">
+          <div class="ach-num">19</div>
+          <div>
+            <h4>UGEE All-India Rank</h4>
+            <p>Plus JEE Mains 5055 &amp; JEE Advanced 3240 AIR.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="section-head reveal center">
+        <div class="kicker">07 — Contact</div>
+        <h2>Let's build something.</h2>
+        <p class="section-sub">Open to research collaborations, full-time roles, and interesting conversations about Document AI.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a class="c-card reveal" href="mailto:gundasaimadhusudan@gmail.com">
+          <div class="c-ico">✉</div>
+          <div class="c-title">Email</div>
+          <div class="c-val">gundasaimadhusudan@gmail.com</div>
+        </a>
+        <a class="c-card reveal" href="tel:+918008039914">
+          <div class="c-ico">☎</div>
+          <div class="c-title">Phone</div>
+          <div class="c-val">+91 80080-39914</div>
+        </a>
+        <a class="c-card reveal" href="https://github.com/SaiMadhusudan" target="_blank" rel="noopener">
+          <div class="c-ico">⌘</div>
+          <div class="c-title">GitHub</div>
+          <div class="c-val">@SaiMadhusudan</div>
+        </a>
+        <a class="c-card reveal" href="https://www.linkedin.com/in/sai-madhusudan-gunda-45bab4223/" target="_blank" rel="noopener">
+          <div class="c-ico">in</div>
+          <div class="c-title">LinkedIn</div>
+          <div class="c-val">Sai Madhusudan Gunda</div>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> Sai Madhusudan Gunda — Hyderabad, India</div>
+    <div class="foot-tag">Built with too much coffee ☕</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
