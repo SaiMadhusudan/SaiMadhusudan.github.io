@@ -240,12 +240,6 @@ img { max-width: 100%; display: block; }
   letter-spacing: -0.005em;
   color: var(--ink);
 }
-.pub-authors {
-  margin: 0 0 2px;
-  font-size: 14.5px;
-  color: var(--ink-soft);
-}
-.pub-authors em { font-style: italic; color: var(--mute); }
 .pub-venue {
   margin: 0 0 8px;
   font-size: 14.5px;
