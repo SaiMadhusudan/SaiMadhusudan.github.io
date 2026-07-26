@@ -230,6 +230,34 @@ img { max-width: 100%; display: block; }
   background: linear-gradient(135deg, #5a2a2a 0%, #8a4848 100%);
   font-size: 17px;
 }
+.pub-thumb-das {
+  background: linear-gradient(135deg, #1e4a4a 0%, #3d7070 100%);
+}
+
+.pub-tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 2px 8px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  position: relative;
+  top: -2px;
+}
+.pub-tag-oral {
+  color: #7a1c1c;
+  background: #f5dede;
+  border: 1px solid #e8b5b5;
+}
+.pub-tag-demo {
+  color: #1c4a7a;
+  background: #dfe9f5;
+  border: 1px solid #b5c9e8;
+}
 
 .pub-info h3 {
   margin: 0 0 6px;

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=2" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body>
 
@@ -50,7 +50,7 @@
           <a href="https://bharatgen.com/products/patram/" target="_blank" rel="noopener">Patram-7B-Instruct</a>
           at BharatGen, a multilingual vision-language model for document understanding. I specialize in
           production inference optimization, distributed training across <strong>256&nbsp;H100s</strong>, and
-          end-to-end system ownership, with two additional papers accepted at <strong>ECCV&nbsp;2026</strong>.
+          end-to-end system ownership, with two additional papers accepted at <strong>ECCV&nbsp;2026</strong> (one as an <em>Oral</em>) and a demo paper at <strong>DAS&nbsp;2026</strong>.
         </p>
 
         <p class="advisor">
@@ -72,6 +72,14 @@
     <section id="news" class="block">
       <h2>News</h2>
       <ul class="news-list">
+        <li>
+          <span class="news-date">May 2026</span>
+          <span class="news-text"><strong>DoCoG</strong> selected for <strong>Oral</strong> presentation at <em>ECCV&nbsp;2026</em>.</span>
+        </li>
+        <li>
+          <span class="news-date">May 2026</span>
+          <span class="news-text">Demo paper on Multi-Script OCR for Handwritten Indic Manuscripts accepted at <em>DAS&nbsp;2026</em>, Vienna.</span>
+        </li>
         <li>
           <span class="news-date">May 2026</span>
           <span class="news-text">Two papers — <strong>DoCoG</strong> and <strong>DocLayout-VL</strong> — accepted at <em>ECCV&nbsp;2026</em>.</span>
@@ -100,6 +108,59 @@
       <h2>Publications</h2>
 
       <article class="pub">
+        <div class="pub-thumb pub-thumb-docog">
+          <div class="thumb-label">DoCoG</div>
+        </div>
+        <div class="pub-info">
+          <h3>DoCoG: Mask-based Multi-Type Grounded Chain-of-Thought for Document QA <span class="pub-tag pub-tag-oral">Oral</span></h3>
+          <p class="pub-venue"><em>European Conference on Computer Vision</em> (<strong>ECCV</strong>), 2026</p>
+          <p class="pub-abstract">Grounded document question answering with step-wise reasoning over textual and graphical elements.</p>
+          <p class="pub-links">
+            <a href="https://docog-eccv.github.io/" target="_blank" rel="noopener">project page</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="pub-thumb pub-thumb-doclayout">
+          <div class="thumb-label">DocLayout<br/>VL</div>
+        </div>
+        <div class="pub-info">
+          <h3>DocLayout-VL: Hierarchical, Open-set, and Promptable Document Layout Segmentation</h3>
+          <p class="pub-venue"><em>European Conference on Computer Vision</em> (<strong>ECCV</strong>), 2026</p>
+          <p class="pub-abstract">A promptable foundational document layout model achieving SOTA results across document layout benchmarks.</p>
+          <p class="pub-links">
+            <a href="https://doclayoutvl.github.io/" target="_blank" rel="noopener">project page</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="pub-thumb pub-thumb-das">
+          <div class="thumb-label">Indic<br/>OCR</div>
+        </div>
+        <div class="pub-info">
+          <h3>Multi-Script OCR System for Handwritten Indic Manuscripts <span class="pub-tag pub-tag-demo">Demo</span></h3>
+          <p class="pub-venue"><em>17th IAPR International Workshop on Document Analysis Systems</em> (<strong>DAS</strong>), Vienna, 2026</p>
+          <p class="pub-abstract">A live demonstration of a multi-script OCR system tailored for handwritten Indic manuscripts across multiple scripts.</p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="pub-thumb pub-thumb-unilipi">
+          <div class="thumb-label">Uni<br/>Lipi</div>
+        </div>
+        <div class="pub-info">
+          <h3>UniLipi: A Unified Multi-Script OCR for Historical Indic Manuscripts</h3>
+          <p class="pub-venue"><em>International Conference on Document Analysis and Recognition</em> (<strong>ICDAR</strong>), 2026</p>
+          <p class="pub-abstract">A unified OCR model across 13 Indic scripts with script-aware synthetic data, achieving 6.9% CER and strong cross-script generalization.</p>
+          <p class="pub-links">
+            <a href="https://ihdia.iiit.ac.in/unilipi/" target="_blank" rel="noopener">project page</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub">
         <div class="pub-thumb pub-thumb-m3">
           <div class="thumb-label">M3<br/>Grounder</div>
         </div>
@@ -123,48 +184,6 @@
           <p class="pub-abstract">A curvature-aware OCR model that handles warped and degraded historical Indic manuscripts, improving recognition accuracy for low-resource scripts.</p>
           <p class="pub-links">
             <a href="https://ihdia.iiit.ac.in/curio/" target="_blank" rel="noopener">project page</a>
-          </p>
-        </div>
-      </article>
-
-      <article class="pub">
-        <div class="pub-thumb pub-thumb-unilipi">
-          <div class="thumb-label">Uni<br/>Lipi</div>
-        </div>
-        <div class="pub-info">
-          <h3>UniLipi: A Unified Multi-Script OCR for Historical Indic Manuscripts</h3>
-          <p class="pub-venue"><em>International Conference on Document Analysis and Recognition</em> (<strong>ICDAR</strong>), 2026</p>
-          <p class="pub-abstract">A unified OCR model across 13 Indic scripts with script-aware synthetic data, achieving 6.9% CER and strong cross-script generalization.</p>
-          <p class="pub-links">
-            <a href="https://ihdia.iiit.ac.in/unilipi/" target="_blank" rel="noopener">project page</a>
-          </p>
-        </div>
-      </article>
-
-      <article class="pub">
-        <div class="pub-thumb pub-thumb-docog">
-          <div class="thumb-label">DoCoG</div>
-        </div>
-        <div class="pub-info">
-          <h3>DoCoG: Mask-based Multi-Type Grounded Chain-of-Thought for Document QA</h3>
-          <p class="pub-venue"><em>European Conference on Computer Vision</em> (<strong>ECCV</strong>), 2026</p>
-          <p class="pub-abstract">Grounded document question answering with step-wise reasoning over textual and graphical elements.</p>
-          <p class="pub-links">
-            <a href="https://docog-eccv.github.io/" target="_blank" rel="noopener">project page</a>
-          </p>
-        </div>
-      </article>
-
-      <article class="pub">
-        <div class="pub-thumb pub-thumb-doclayout">
-          <div class="thumb-label">DocLayout<br/>VL</div>
-        </div>
-        <div class="pub-info">
-          <h3>DocLayout-VL: Hierarchical, Open-set, and Promptable Document Layout Segmentation</h3>
-          <p class="pub-venue"><em>European Conference on Computer Vision</em> (<strong>ECCV</strong>), 2026</p>
-          <p class="pub-abstract">A promptable foundational document layout model achieving SOTA results across document layout benchmarks.</p>
-          <p class="pub-links">
-            <a href="https://doclayoutvl.github.io/" target="_blank" rel="noopener">project page</a>
           </p>
         </div>
       </article>
